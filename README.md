@@ -1,12 +1,49 @@
-# Bucket Simple Server
+# Helm Charts
 
-![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/freepik-company/bucket-simple-server)
-![GitHub](https://img.shields.io/github/license/freepik-company/bucket-simple-server)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![Release Charts](https://github.com/freepik-company/bucket-simple-server/workflows/Release%20Charts/badge.svg?branch=main)
+[![Releases downloads](https://img.shields.io/github/downloads/freepik-company/bucket-simple-server/total.svg)](https://github.com/freepik-company/bucket-simple-server/releases)
 
-![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCeSb3yfsPNNVr13YsYNvCAw?label=achetronic&link=http%3A%2F%2Fyoutube.com%2Fachetronic)
-![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/achetronic?style=flat&logo=twitter&link=https%3A%2F%2Ftwitter.com%2Fachetronic)
+Bucket Simple Server Helm Charts
 
-A tiny server to safely expose some routes from your buckets without sharing cloud credentials
+## Usage
+
+[Helm](https://helm.sh) must be installed to use the charts.
+Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
+
+Once Helm is set up properly, add the repo as follows:
+
+```console
+helm repo add bucket-simple-server https://freepik-company.github.io/bucket-simple-server/
+```
+
+You can then run the following command to see the charts.
+
+```console
+helm search repo bucket-simple-server
+```
+
+## How to contribute
+
+For doing it you must:
+* Fork the repository
+* Make your changes to the code in a specific branch
+* Open a PR
+
+> The charts will be reviewed and tested (always)
+
+## License
+
+[Apache 2.0 License](./LICENSE)
+
+
+
+
+
+
+
+
+
 
 ## Motivation
 
