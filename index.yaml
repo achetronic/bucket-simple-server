@@ -3,6 +3,28 @@ entries:
   bucket-simple-server:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2024-08-13T01:17:30.991365402Z"
+    description: A Helm chart for Bucket Simple Server, a tiny server to safely expose  some
+      routes on from buckets without sharing cloud credentials
+    digest: fbd0def9d8f55ea663e084b1cf96cb270ebf5fcf72f9b89218c418597bfb8f57
+    home: https://github.com/freepik-company/bucket-simple-server
+    keywords:
+    - bucketSimpleServer
+    - bucket
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: ahernandez@freepik.com
+      name: Alby Hernández
+      url: https://github.com/achetronic/
+    name: bucket-simple-server
+    sources:
+    - https://github.com/freepik-company/bucket-simple-server
+    type: application
+    urls:
+    - bucket-simple-server-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2024-08-13T01:13:10.936282492Z"
     description: A Helm chart for Bucket Simple Server, a tiny server to safely expose  some
       routes on from buckets without sharing cloud credentials
@@ -67,4 +89,4 @@ entries:
     urls:
     - bucket-simple-server-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-13T01:13:10.936300386Z"
+generated: "2024-08-13T01:17:30.991383475Z"
